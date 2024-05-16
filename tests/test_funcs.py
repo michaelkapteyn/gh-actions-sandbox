@@ -1,8 +1,6 @@
-from some_code import my_func, my_other_func
+def test_passing_test() -> None:
+    assert True  # should pass!
 
-def test_my_func():
-    assert my_func() == 7 # should pass!
 
-def test_my_other_func():
-    assert my_other_func()[0,0] == 1. # should fail!
-    
+def test_failing_test() -> None:
+    assert False  # should fail!
