@@ -1,6 +1,5 @@
 import numpy as np
 
-
 def my_func():
     return 7.0
 
