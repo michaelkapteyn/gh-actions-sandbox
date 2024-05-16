@@ -3,4 +3,4 @@ def test_passing_test() -> None:
 
 
 def test_failing_test() -> None:
-    assert True  # should fail!
+    assert False  # should fail!
