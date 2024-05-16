@@ -1,6 +1,6 @@
-def passing_test():
+def test_passing_test() -> None:
     assert True  # should pass!
 
 
-def failing_test():
+def test_failing_test() -> None:
     assert False  # should fail!
