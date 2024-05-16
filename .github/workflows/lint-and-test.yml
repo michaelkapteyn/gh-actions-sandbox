@@ -33,7 +33,7 @@ jobs:
         uses: py-actions/flake8@v2
         
       - name: Linting (mypy)
-        uses: mypy --strict
+        run: mypy --strict
 
       - name: Test (pytest)
         run: pytest tests
